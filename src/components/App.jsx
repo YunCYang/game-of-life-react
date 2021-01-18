@@ -1,6 +1,9 @@
 // import logo from '../logo.svg';
 import './App.css';
-import Comp1 from './comp1';
+import Header from './header/header';
+import Board from './board/board';
+import Controls from './controls/controls';
+import Info from './info/info';
 
 // function App() {
 //   return (
@@ -26,8 +29,10 @@ import Comp1 from './comp1';
 const App = () => {
   return (
     <>
-      <p>TEST!!!</p>
-      <Comp1 />
+      <Header />
+      <Board />
+      <Controls />
+      <Info />
     </>
   )
 };
